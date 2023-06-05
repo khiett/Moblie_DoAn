@@ -17,7 +17,7 @@
             android:id="@+id/page_title"
             android:text="Notes"
             android:textSize="32sp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textStyle="bold"/>
 
         <ImageButton
@@ -27,7 +27,7 @@
             android:src="@drawable/ic_baseline_menu_24"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            app:tint="@color/white"
+            app:tint="@color/black"
             android:background="?attr/selectableItemBackgroundBorderless"
             />
 
