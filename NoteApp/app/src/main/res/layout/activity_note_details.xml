@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Add New Note"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="32sp"
             android:textStyle="bold" />
 
@@ -29,7 +29,7 @@
             android:src="@drawable/ic_baseline_done_24"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            app:tint="@color/white"
+            app:tint="@color/black"
             android:background="?attr/selectableItemBackgroundBorderless"
 
             />
@@ -67,6 +67,19 @@
             android:layout_marginVertical="8dp"
             android:padding="12dp"
             android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/set_reminder_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@id/save_note_btn"
+            android:backgroundTint="@color/my_primary"
+            android:text="Set Reminder"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
